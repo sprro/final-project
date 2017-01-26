@@ -5,7 +5,7 @@
  */
 
 body {
-    padding-top: 20px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    padding-top: 0px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 .portfolio-item {
@@ -15,33 +15,62 @@ body {
 body {
     margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: #eeeeee; 
 }
 
 .header-image {
     display: block;
     width: 100%;
     text-align: center;
-    background: url('http://placehold.it/1900x500') no-repeat center center scroll;
+    background: url(../images/banner.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
+#header {
+    display: block;
+    height: 300px;
+    background-color: #282828;
+    width: 100%;
+}
+
 .headline {
-    padding: 120px 0;
+    padding: 350px 0;
 }
 
 .headline h1 {
     font-size: 130px;
     background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: rgba(255,255,255,0.5);
+
 }
 
 .headline h2 {
     font-size: 77px;
     background: #fff;
     background: rgba(255,255,255,0.9);
+    line-height: 20px;
+}
+
+h2.section-heading {
+
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+p.text-faded {
+
+    padding: 0 100px 0 100px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.service-box i {
+
+    font-size: 18px;
 }
 
 .hvr-grow {
