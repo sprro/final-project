@@ -9,13 +9,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>EcoGram</title>
+    <title>Rogue Photographer</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/one-page-wonder.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,6 +24,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Knewave" rel="stylesheet">
 
 </head>
 
@@ -31,7 +32,7 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
+        <div class="container" id="navbar">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -40,19 +41,25 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">EcoGram</a>
+                <a class="navbar-brand" href="#"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav navbar-right">
                     <li>
                         <a href="#about">Manifesto</a>
                     </li>
                     <li>
-                        <a href="#services">Learn</a>
+                        <a href="#services">How does it work?</a>
                     </li>
                     <li>
-                        <a href="#contact">Shop</a>
+                        <a href="#shop">Shop</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#shop" id="donate" class="btn btn-primary btn-xl page-scroll">Donate</a>
                     </li>
                 </ul>
             </div>
@@ -65,8 +72,8 @@
     <header class="header-image">
         <div class="headline">
             <div class="container">
-                <h1>WELCOME<h1>
-                <h2></h2>
+                <!-- <h2 class="h2-go-rogue">GO</h2> -->
+                <h1 class="h1-go-rogue">#RESIST<h1>
             </div>
         </div>
     </header>
@@ -75,22 +82,29 @@
         <div id='header' class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">My Manifesto</h2>
-                    <!-- <hr class="light"> -->
-                    <p class="text-faded">The election of Donald Trump has changed the scope of the game. No longer can those of us who care about the planet sit back and watch our world fall apart. I started <strong>EcoGram</strong> to fight back. To give back. To remind men like Donald Trump that we are all not like him and that many of us never will be. If you want to fight back to, you've come to the right place. Let's stand up for the planet, together. When you purchase one of my photos, 100% of the profit will go towards environmental charities. </p>
+                    <!-- <h2 class="section-heading" id="manifesto">MANIFESTO</h2> -->
+                    <div class="container">
+                        <p class="text-faded">The election of Donald Trump has changed the scope of the game. No longer can those of us who care about the planet sit back and watch our world fall apart. I started <strong>Rogue Photographer</strong> to fight back. To give back. To remind men like Donald Trump that we are all not like him and that many of us never will be. If you want to fight back to, you've come to the right place. Let's stand up for the planet, together. 
+                        <br>
+                        <br>When you purchase one of my photos, <strong>100% of the profit will go towards the National Resources Defense Council.</strong>
+                        <br>
+                        <a href="#shop" id="shop-btn" class="btn btn-primary btn-xl page-scroll">Shop My Photos</a>
+                        
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
         </section>
     
-    <div class="container">
+    <div class="container" id='images'>
 
         <section id="services">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">How does it work?</h2>
-                    <hr class="primary">
+                    <h2 class="section-heading" id="hdiw">How does it work?</h2>
+                    <!-- <hr class="primary"> -->
                 </div>
             </div>
         </div>
@@ -99,133 +113,154 @@
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="glyphicon glyphicon-tree-conifer"></i>
-                        <h3>Sturdy Templates</h3>
+                        <h3>Step 1</h3>
                         <p class="text-muted">It's simple. I love the planet, and so do you. Let's work togther.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="glyphicon glyphicon-camera"></i>
-                        <h3>Ready to Ship</h3>
+                        <h3>Step 2</h3>
                         <p class="text-muted">Choose one of my images below. Or a few. As many as you'd like, really.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="glyphicon glyphicon-flash"></i>
-                        <h3>Up to Date</h3>
+                        <h3>Step 3</h3>
                         <p class="text-muted">You'll leave this site and be taken to my store page. It's a place I trust.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="glyphicon glyphicon-thumbs-up"></i>
-                        <h3>Made with Love</h3>
-                        <p class="text-muted">Purchase your favorites. 100% of the money I make goes to environmental charities.</p>
+                        <h3>Step 4</h3>
+                        <p class="text-muted">Purchase your favorites. 100% of the money I make goes to the National Resources Defense Council.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-        <!-- <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">Portfolio Item
-                    <small>Item Subheading</small>
-                </h1>
-            </div>
-        </div> -->
 
-        <!-- Portfolio Item Row -->
-        <!-- <div class="row">
+    </div>
 
-            <div class="col-md-8">
-                <img class="img-responsive" src="images/banner.jpg" alt="">
-            </div>
-
-            <div class="col-md-4">
-                <h3>Project Description</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
-                <h3>Project Details</h3>
-                <ul>
-                    <li>Lorem Ipsum</li>
-                    <li>Dolor Sit Amet</li>
-                    <li>Consectetur</li>
-                    <li>Adipiscing Elit</li>
-                </ul>
-            </div>
-
-        </div>
-        <!-- /.row -->
-
+    <div class='container'>
+        
         <!-- Related Projects Row -->
-        <div class="row">
-
-            <div class="col-lg-12">
-                <h3 class="page-header">Related Projects</h3>
-            </div>
-
-            <div class="col-sm-3 col-xs-6">
-                <a href="#" class="hvr-grow">
-                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                </a>
-            </div>
-
-            <div class="col-sm-3 col-xs-6">
-                <a href="#" class="hvr-grow">
-                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                </a>
-            </div>
-
-            <div class="col-sm-3 col-xs-6">
-                <a href="#" class="hvr-grow">
-                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                </a>
-            </div>
-
-            <div class="col-sm-3 col-xs-6">
-                <a href="#" class="hvr-grow">
-                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                </a>
-            </div>
-
-             <div class="col-sm-3 col-xs-6">
-                <a href="#" class="hvr-grow">
-                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                </a>
-            </div>
-
-            <div class="col-sm-3 col-xs-6">
-                <a href="#" class="hvr-grow">
-                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                </a>
-            </div>
-
-            <div class="col-sm-3 col-xs-6">
-                <a href="#" class="hvr-grow">
-                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                </a>
-            </div>
-
-            <div class="col-sm-3 col-xs-6">
-                <a href="#" class="hvr-grow">
-                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                </a>
-            </div>
-
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Footer -->
-        <footer>
+        <section id="shop">
             <div class="row">
+
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <h3 class="page-header">Shop</h3>
                 </div>
+
+                <div class="col-sm-3 col-xs-6">
+                    <a href="#" class="hvr-grow">
+                        <img class="img-responsive portfolio-item" src="images/shop1.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="col-sm-3 col-xs-6">
+                    <a href="#" class="hvr-grow">
+                        <img class="img-responsive portfolio-item" src="images/shop2.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="col-sm-3 col-xs-6">
+                    <a href="#" class="hvr-grow">
+                        <img class="img-responsive portfolio-item" src="images/shop3.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="col-sm-3 col-xs-6">
+                    <a href="#" class="hvr-grow">
+                        <img class="img-responsive portfolio-item" src="images/shop4.jpg" alt="">
+                    </a>
+                </div>
+
+                 <div class="col-sm-3 col-xs-6">
+                    <a href="#" class="hvr-grow">
+                        <img class="img-responsive portfolio-item" src="images/shop1.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="col-sm-3 col-xs-6">
+                    <a href="#" class="hvr-grow">
+                        <img class="img-responsive portfolio-item" src="images/shop2.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="col-sm-3 col-xs-6">
+                    <a href="#" class="hvr-grow">
+                        <img class="img-responsive portfolio-item" src="images/shop3.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="col-sm-3 col-xs-6">
+                    <a href="#" class="hvr-grow">
+                        <img class="img-responsive portfolio-item" src="images/shop4.jpg" alt="">
+                    </a>
+                </div>
+
+             </div>
+         </section>
+    </div>
+
+    <div id="contact">
+                        <div class="container">
+                        <div class="inner contact">
+                                <!-- Form Area -->
+                                <h2 class="section-heading" id="contact-header">Contact Me!</h2>
+                                <p id="send-line">Want to get in touch? Touched by what you see? Wish that Trump touched you? Let me know!</p>
+                                <div class="contact-form">
+                                    <!-- Form -->
+                                    <form id="contact-us" method="post" action="#">
+                                        <!-- Left Inputs -->
+                                        <div class="col-xs-6 wow animated slideInLeft" data-wow-delay=".5s">
+                                            <!-- Name -->
+                                            <input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
+                                            <!-- Email -->
+                                            <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Email" />
+                                            <!-- Subject -->
+                                            <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
+                                        </div><!-- End Left Inputs -->
+                                        <!-- Right Inputs -->
+                                        <div class="col-xs-6 wow animated slideInRight" data-wow-delay=".5s">
+                                            <!-- Message -->
+                                            <textarea name="message" id="message" class="form textarea"  placeholder="Message"></textarea>
+                                        </div><!-- End Right Inputs -->
+                                        <!-- Bottom Submit -->
+                                        <div class="relative fullwidth col-xs-12">
+                                            <!-- Send Button -->
+                                            <button type="submit" id="submit" name="submit" class="form-btn semibold">Send Message</button> 
+                                        </div><!-- End Bottom Submit -->
+                                        <!-- Clear -->
+                                        <div class="clear"></div>
+                                    </form>
+
+                                    <!-- Your Mail Message -->
+                                    <div class="mail-message-area">
+                                        <!-- Message -->
+                                        <div class="alert gray-bg mail-message not-visible-message">
+                                            <strong>Thank You !</strong> Your email has been delivered.
+                                        </div>
+                                    </div>
+
+                                </div><!-- End Contact Form Area -->
+                        </div><!-- End Inner -->
+                        </div>
+
+            <!-- Footer -->
+            <div class="container">
+            <footer>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>Copyright &copy; Rogue Photographer 2017</p>
+                    </div>
+                </div>
+                <!-- /.row -->
+            </footer>
             </div>
-            <!-- /.row -->
-        </footer>
 
     </div>
     <!-- /.container -->
@@ -235,6 +270,8 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    </div>
 
 </body>
 

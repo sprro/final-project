@@ -1,0 +1,365 @@
+/*
+ * Start Bootstrap - One Page Wonder (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 0px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+nav {
+    background: url(../images/broken_noise.png) repeat center center scroll;
+    height: 60px;   
+
+}
+
+.navbar-brand {
+    background: url(../images/nav.png) no-repeat center center scroll;
+    width: 300px;
+}
+
+#navbar {
+    margin-top: 3px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #e4e4e4;
+}
+
+#donate {
+    background-color: #d92b54;
+}
+
+#donate:hover {
+    background-color: #2e6da4;
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+.btn-primary {
+    border: none;
+}
+
+.btn {
+    padding: 10px 12px;
+}
+
+body {
+    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background: url(../images/light_toast.png) repeat center center scroll;
+}
+
+.navbar-brand {
+    font-family: 'Knewave', cursive;
+    font-weight: 400; 
+    font-size: 20px;
+    color: #e4e4e4;
+}
+
+ul {
+    font-size: 12px;
+    color: #e4e4e4;
+}
+
+.header-image {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: url(../images/banner2.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.h1-go-rogue {
+    font-family: 'Knewave', cursive;
+    font-weight: 400; 
+    font-size: 150px;
+    color: #e4e4e4;
+}
+
+.h2-go-rogue {
+    font-family: 'Knewave', cursive;
+    font-weight: 400; 
+    font-size: 50px;
+    color: #e4e4e4;
+}
+
+#header {
+    display: block;
+    height: 400px;
+    background: url(../images/broken_noise.png) repeat center center scroll;
+    width: 100%;
+}
+
+.headline {
+    padding: 300px 0;
+}
+
+/*.headline h1 {
+    font-size: 130px;
+    background: #fff;
+    background: rgba(255,255,255,0.5);
+
+}*/
+
+.headline h2 {
+    font-size: 77px;
+    /* background: #fff;
+    background: rgba(255,255,255,0.9);*/
+    line-height: 20px;
+}
+
+h2.section-heading {
+
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+h3 {
+    font-family: 'Knewave', cursive;
+    font-weight: 400;
+    color: inherit;
+
+}
+
+h3.page-header {
+    font-size: 60px;
+    text-align: center; 
+    margin-bottom: 60px;
+    margin-top: 10px;
+}
+
+#manifesto {
+    font-family: 'Knewave', cursive;
+    font-weight: 400; 
+    color: #ff7d45;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+p.text-faded {
+    margin-top: 75px;
+    font-size: 18px;
+    font-weight: 300;
+    width: 100%;
+    text-align: center;
+    line-height: 1.5;
+    color: #e4e4e4;
+}
+
+.service-box i {
+    font-size: 24px;
+    color: #005d73;
+}
+
+#hdiw {
+    font-family: 'Knewave', cursive;
+    font-weight: 400; 
+    font-size: 60px;
+    color: inherit;
+}
+
+#shop {
+    margin-bottom: 40px;
+}
+
+#shop-btn {
+    font-family: 'Knewave', cursive;
+    font-weight: 400; 
+    font-size: 20px;
+    color: #e4e4e4;
+    margin: auto;
+    width: 200px;
+    margin-top: 45px;
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+#images {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+ #contact{
+    padding: 40px 0 10px;
+    background: url(../images/broken_noise.png) repeat center center scroll;
+    width: 100%;
+  }
+
+.contact-text{
+    margin: 45px auto;
+  }
+
+#contact-header {
+    font-family: 'Knewave', cursive;
+    font-weight: 400; 
+    font-size: 60px;
+    color: #e4e4e4;
+    text-align: center; 
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+
+p#send-line {
+    color: #e4e4e4;
+    text-align: center; 
+    font-size: 15px;
+    font-weight: 300;
+    color: #e4e4e4;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+.mail-message-area{
+    width: 100%;
+    padding: 0 15px;
+  }
+
+.mail-message{
+    width: 100%;
+    /*background:rgba(255,255,255, 0.8) !important;*/
+    background-color: #e4e4e4;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    transition: all 0.7s;
+    margin: 0 auto;
+    border-radius: 0;
+  }
+
+.not-visible-message{
+    height: 0px;
+    opacity: 0;
+  }
+
+.visible-message{
+    height:auto;
+    opacity: 1;
+    margin: 25px auto 0;
+  }
+
+/* Input Styles */
+
+.form{
+    width: 100%;
+    padding: 15px;
+    background: #e4e4e4;
+    border: 1px solid rgba(0, 0, 0, 0.075);
+    margin-bottom:25px;
+    color: #727272 !important;
+    font-size: 13px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+
+.form:hover{
+    border: 1px solid #005d73;
+  }
+
+.form:focus{
+    color: white;
+    outline: none;
+    border:1px solid #005d73;
+  }
+
+.textarea{
+    height: 200px;
+    max-height: 200px;
+    max-width: 100%;
+  }
+  
+/* Generic Button Styles */
+
+.button{
+    padding: 8px 12px;
+    background: #0A5175;
+    display: block;
+    width: 120px;
+    margin: 10px 0 0px 0;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align:center;
+    font-size: 0.8em;
+    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  }
+
+.button:hover{
+    background: #8BC3A3;
+    color:white;
+  }
+
+/* Send Button Styles */
+
+.form-btn {
+    font-family: 'Knewave', cursive;
+    font-weight: 400; 
+    font-size: 20px;
+    width:180px;
+    display: block;
+    height: auto;
+    padding:15px;
+    color:#fff;
+    background: #2e6da4;;
+    border:none;
+    border-radius:3px;
+    outline: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin:auto;
+    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  }
+
+.form-btn:hover{
+    background: #337ab7;
+    color: white;
+    border:none;
+  }
+
+.form-btn:active{
+    opacity: 0.9;
+  }
+
+input {
+    position: relative;
+    z-index: 9999;
+}
+
+footer {
+    margin: 50px 0;
+    color: #e4e4e4;
+    text-align: center;
+}

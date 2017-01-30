@@ -16,49 +16,80 @@ body {
     margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    background-color: #eeeeee; 
+    /*background-color: #eeeeee;*/
+    background: url(../images/white_wall_hash.png) repeat center center scroll;
+}
+
+.navbar-brand {
+    font-family: 'Knewave', cursive;
+    font-weight: 400; 
+    font-size: 20px;
+    color: #fff;
 }
 
 .header-image {
     display: block;
     width: 100%;
     text-align: center;
-    background: url(../images/banner.jpg) no-repeat center center scroll;
+    background: url(../images/banner2.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
+.h1-go-rogue {
+    font-family: 'Knewave', cursive;
+    font-weight: 400; 
+    font-size: 100px;
+    color: #fff;
+}
+
+.h2-go-rogue {
+    font-family: 'Knewave', cursive;
+    font-weight: 400; 
+    font-size: 50px;
+    color: #fff;
+}
+
 #header {
     display: block;
     height: 300px;
-    background-color: #282828;
+    /*background-color: #282828;*/
+    background: url(../images/cartographer.png) repeat center center scroll;
     width: 100%;
 }
 
 .headline {
-    padding: 350px 0;
+    padding: 200px 0;
 }
 
-.headline h1 {
+/*.headline h1 {
     font-size: 130px;
     background: #fff;
     background: rgba(255,255,255,0.5);
 
-}
+}*/
 
 .headline h2 {
     font-size: 77px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+ /*   background: #fff;
+    background: rgba(255,255,255,0.9);*/
     line-height: 20px;
 }
 
 h2.section-heading {
 
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#manifesto {
+    font-family: 'Knewave', cursive;
+    font-weight: 400; 
+    font-size: 50px;
     margin-top: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 p.text-faded {
@@ -66,11 +97,21 @@ p.text-faded {
     padding: 0 100px 0 100px;
     margin-bottom: 10px;
     font-size: 18px;
+    width: 100%;
+    text-align: center;
+    line-height: 1.5;
 }
 
 .service-box i {
 
-    font-size: 18px;
+    font-size: 24px;
+}
+
+#hdiw {
+    font-family: 'Knewave', cursive;
+    font-weight: 400; 
+    font-size: 50px;
+    color: inherit;
 }
 
 .hvr-grow {
@@ -88,6 +129,11 @@ p.text-faded {
 .hvr-grow:focus,
 .hvr-grow:active {
     transform: scale(1.1);
+}
+
+#images {
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 /*.featurette-divider {
