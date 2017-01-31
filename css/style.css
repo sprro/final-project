@@ -1,11 +1,5 @@
-/*
- * Start Bootstrap - One Page Wonder (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
-
 body {
-    padding-top: 0px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    padding-top: 0px;
 }
 
 .portfolio-item {
@@ -36,7 +30,7 @@ nav {
 }
 
 #donate:hover {
-    background-color: #2e6da4;
+    background-color: #991c3a;
     font-weight: 700;
     border-radius: 4px;
 }
@@ -50,7 +44,7 @@ nav {
 }
 
 body {
-    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    margin-top: 50px; 
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     background: url(../images/light_toast.png) repeat center center scroll;
@@ -148,8 +142,8 @@ h3.page-header {
 }
 
 p.text-faded {
-    margin-top: 75px;
-    font-size: 18px;
+    margin-top: 70px;
+    font-size: 2.2vmin;
     font-weight: 300;
     width: 100%;
     text-align: center;
@@ -158,8 +152,8 @@ p.text-faded {
 }
 
 .service-box i {
-    font-size: 24px;
-    color: #005d73;
+    font-size: 40px;
+    color: #337ab7;
 }
 
 #hdiw {
@@ -169,8 +163,18 @@ p.text-faded {
     color: inherit;
 }
 
+div.col-sm-3.col-xs-6 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#images {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 #shop {
-    margin-bottom: 40px;
+    margin-bottom: 70px;
 }
 
 #shop-btn {
@@ -200,19 +204,22 @@ p.text-faded {
     transform: scale(1.1);
 }
 
-#images {
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
  #contact{
     padding: 40px 0 10px;
     background: url(../images/broken_noise.png) repeat center center scroll;
     width: 100%;
   }
 
-.contact-text{
-    margin: 45px auto;
+i.glyphicon.glyphicon-envelope {
+    font-size: 32px;
+    color: #e4e4e4;
+}
+
+.contact-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-bottom: 50px;
+    color: #e4e4e4;
   }
 
 #contact-header {
@@ -222,141 +229,8 @@ p.text-faded {
     color: #e4e4e4;
     text-align: center; 
     margin-top: 0;
-    margin-bottom: 5px;
-  }
-
-p#send-line {
-    color: #e4e4e4;
-    text-align: center; 
-    font-size: 15px;
-    font-weight: 300;
-    color: #e4e4e4;
-    text-align: center;
-    line-height: 1.5;
-    margin-top: 30px;
     margin-bottom: 20px;
   }
-
-.mail-message-area{
-    width: 100%;
-    padding: 0 15px;
-  }
-
-.mail-message{
-    width: 100%;
-    /*background:rgba(255,255,255, 0.8) !important;*/
-    background-color: #e4e4e4;
-    -webkit-transition: all 0.7s;
-    -moz-transition: all 0.7s;
-    transition: all 0.7s;
-    margin: 0 auto;
-    border-radius: 0;
-  }
-
-.not-visible-message{
-    height: 0px;
-    opacity: 0;
-  }
-
-.visible-message{
-    height:auto;
-    opacity: 1;
-    margin: 25px auto 0;
-  }
-
-/* Input Styles */
-
-.form{
-    width: 100%;
-    padding: 15px;
-    background: #e4e4e4;
-    border: 1px solid rgba(0, 0, 0, 0.075);
-    margin-bottom:25px;
-    color: #727272 !important;
-    font-size: 13px;
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    transition: all 0.4s;
-  }
-
-.form:hover{
-    border: 1px solid #005d73;
-  }
-
-.form:focus{
-    color: white;
-    outline: none;
-    border:1px solid #005d73;
-  }
-
-.textarea{
-    height: 200px;
-    max-height: 200px;
-    max-width: 100%;
-  }
-  
-/* Generic Button Styles */
-
-.button{
-    padding: 8px 12px;
-    background: #0A5175;
-    display: block;
-    width: 120px;
-    margin: 10px 0 0px 0;
-    border-radius: 3px;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-    text-align:center;
-    font-size: 0.8em;
-    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
-    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
-    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
-  }
-
-.button:hover{
-    background: #8BC3A3;
-    color:white;
-  }
-
-/* Send Button Styles */
-
-.form-btn {
-    font-family: 'Knewave', cursive;
-    font-weight: 400; 
-    font-size: 20px;
-    width:180px;
-    display: block;
-    height: auto;
-    padding:15px;
-    color:#fff;
-    background: #2e6da4;;
-    border:none;
-    border-radius:3px;
-    outline: none;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-    margin:auto;
-    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
-    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
-    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
-  }
-
-.form-btn:hover{
-    background: #337ab7;
-    color: white;
-    border:none;
-  }
-
-.form-btn:active{
-    opacity: 0.9;
-  }
-
-input {
-    position: relative;
-    z-index: 9999;
-}
 
 footer {
     margin: 50px 0;
